@@ -1,0 +1,33 @@
+{
+  "name": "phaser_game",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "watch": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "webpack server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lochyb/Phaser_Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.0",
+    "prettier": "^2.5.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "8.0.17",
+    "typescript": "4.1.5",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "phaser": "^3.55.2"
+  }
+}
